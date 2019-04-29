@@ -4,6 +4,11 @@ This is custom css for Discord. It makes the interface more compact when in comp
 
 You can use [Stylus](https://add0n.com/stylus.html) to use this css in the browser version of Discord, or [BeautifulDiscord](https://github.com/leovoel/BeautifulDiscord) to use it in the desktop version.
 
+Known issues:
+
+- early development, a lot of stuff is broken
+- all elements are renamed when Discord updates, so Isabella theme updates are slow
+
 ![screenshot](https://cdn.discordapp.com/attachments/410954878093885451/572507740518481930/unknown.png)
 
 **Need more help?** Get in touch!
