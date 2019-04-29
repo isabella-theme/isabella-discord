@@ -57,6 +57,9 @@ body {
     padding-top: 5px;
     border-top: initial !important;
 }
+.friendsTable-133bsv .friendsRow-2yicud+.friendsRow-2yicud {border-top: initial !important;}
+.friendsRow-2yicud {height: 45px !important;}
+.friendsColumn-eVHFqJ.friendsColumnActions-1LT3_M {display: none !important;}
 /* global colors */
 .item-2hkk8m {background-color: var(--colorHl);}
 .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU,
@@ -70,6 +73,7 @@ body {
     color: var(--colorHlFg);
     background-color: var(--colorHl);
 }
+.theme-dark .container-2Thooq,.theme-light .container-2Thooq {background-color: transparent;}
 .theme-light .username-_4ZSMR,
 .theme-dark .username-_4ZSMR {
     color: var(--colorHl);
@@ -80,21 +84,25 @@ body {
 .theme-light .wrapper-1Rf91z {background-color: var(--colorAcLight);}
 .theme-light .container-1r6BKw {background-color: var(--colorAcLight);}
 .theme-light .container-PNkimc {background-color: var(--colorAcLIght);}
+.theme-light .channels-Ie2l6A {background-color: var(--colorAcLight);}
+.theme-light .channels-Ie2l6A * {color: var(--colorFgLight);}
 .theme-light .content-yTz4x3 {background-color: var(--colorBgLight);}
 .theme-light .markup-2BOw-j {color: var(--colorFgLight);}
 .theme-light .timestampCompact-MHgFLv {color: var(--colorFgLight);}
-.theme-light .channels-Ie2l6A {background-color: var(--colorAcLight);}
-.theme-light .channels-Ie2l6A * {color: var(--colorFgLight);}
+.theme-light .members-1998pB {background-color: var(--colorAcLight);}
+.theme-light .container-3gCOGc {background-color: var(--colorBgLight);}
 /* dark theme */
 .theme-dark .container-2lgZY8 {background-color: var(--colorAcDark);}
 .theme-dark .wrapper-1Rf91z {background-color: var(--colorAcDark);}
 .theme-dark .container-1r6BKw {background-color: var(--colorAcDark);}
 .theme-dark .container-PNkimc {background-color: var(--colorAcDark);}
+.theme-dark .channels-Ie2l6A {background-color: var(--colorAcDark) !important;}
+.theme-dark .channels-Ie2l6A * {color: var(--colorFgDark) !important;}
 .theme-dark .content-yTz4x3,
 .theme-dark .messagesWrapper-3lZDfY {
     background-color: var(--colorBgDark);
 }
-.theme-dark .chat-3bRxxu form {background-color: var(--colorBg)}
+.theme-dark .chat-3bRxxu form {background-color: var(--colorBg);}
 .theme-dark .timestampCompact-MHgFLv {color: var(--colorFgDark) !important;}
-.theme-dark .channels-Ie2l6A {background-color: var(--colorAcDark) !important;}
-.theme-dark .channels-Ie2l6A * {color: var(--colorFgDark) !important;}
+.theme-dark .members-1998pB {background-color: var(--colorAcDark);}
+.theme-dark .container-3gCOGc {background-color: var(--colorBgDark);}
