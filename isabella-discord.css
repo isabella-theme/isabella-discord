@@ -1,0 +1,100 @@
+/* https://tiamarth.github.io/Isabella/ */
+body {
+    /* universal */
+    --colorBlack: black;
+    --colorWhite: white;
+    --colorHl: #be4318;
+    --colorHlFaded: #b18879;
+    --colorHlFg: var(--colorWhite);
+    /* dark */
+    --colorBgDark: #333335;
+    --colorBgDarkDarker: #232325;
+    --colorFgDark: #d1d1d1;
+    --colorFgDarkBolded: white;
+    --colorFgDarkFaded: #87878c;
+    --colorAcDark: #101013;
+    /* light */
+    --colorBgLight: #f9f9f9;
+    --colorBgLightDarker: #e8e8e8;
+    --colorFgLight: #4c4f59;
+    --colorFgLightBolded: black;
+    --colorFgLightFaded: #a9a9b3;
+    --colorAcLight: #cccccc;
+}
+/* global compacter */
+.wrapper-1Rf91z {width: 60px;}
+.wrapper-sa6paO {height: 40px;}
+.listItem-2P_4kh {width: 60px;}
+.svg-1X37T1,.wrapper-25eVIn {
+    height: 40px;
+    width: 40px;
+}
+.guildSeparator-3s64Iy {display: none;}
+.containerCompact-3V0ioj {padding: 2px 0;}
+.message-1PNnaP {margin-bottom: 0;}
+.content-3dzVd8 {padding-right: 1%;}
+.containerCompact-3bB5aN {padding-left: 1%;}
+.buttonContainer-KtQ8wc {display: none;}
+.timestampCompact-MHgFLv:before {content: '[';}
+.timestampCompact-MHgFLv:after {content: ']';}
+.isCompact-1hsne1 {
+    margin-left: 2ch;
+    text-indent: -3ch;
+}
+.dividerEnabled-2TTlcf {display: none;}
+.messageEditorCompact-2PSR3v {
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.messageEditorCompact-2PSR3v .inner-zqa7da {max-height: 990px !important;}
+.messageEditorCompact-2PSR3v textarea {max-height: 965px !important;}
+.chat-3bRxxu form {
+    margin-right: 1%;
+    margin-left: 1%;
+}
+.channelTextArea-rNsIhG {
+    margin-bottom: 5px;
+    padding-top: 5px;
+    border-top: initial !important;
+}
+/* global colors */
+.item-2hkk8m {background-color: var(--colorHl);}
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU,
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU,
+.theme-light .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU,
+.theme-light .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU,
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ svg path,
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover svg path,
+.theme-light .wrapper-1ucjTd.modeSelected-1zApJ_ svg path,
+.theme-light .wrapper-1ucjTd.modeSelected-1zApJ_:hover svg path {
+    color: var(--colorHlFg);
+    background-color: var(--colorHl);
+}
+.theme-light .username-_4ZSMR,
+.theme-dark .username-_4ZSMR {
+    color: var(--colorHl);
+}
+.markup-2BOw-j a {color: var(--colorHl) !important;}
+/* light theme */
+.theme-light .container-2lgZY8 {background-color: var(--colorAcLight);}
+.theme-light .wrapper-1Rf91z {background-color: var(--colorAcLight);}
+.theme-light .container-1r6BKw {background-color: var(--colorAcLight);}
+.theme-light .container-PNkimc {background-color: var(--colorAcLIght);}
+.theme-light .content-yTz4x3 {background-color: var(--colorBgLight);}
+.theme-light .markup-2BOw-j {color: var(--colorFgLight);}
+.theme-light .timestampCompact-MHgFLv {color: var(--colorFgLight);}
+.theme-light .channels-Ie2l6A {background-color: var(--colorAcLight);}
+.theme-light .channels-Ie2l6A * {color: var(--colorFgLight);}
+/* dark theme */
+.theme-dark .container-2lgZY8 {background-color: var(--colorAcDark);}
+.theme-dark .wrapper-1Rf91z {background-color: var(--colorAcDark);}
+.theme-dark .container-1r6BKw {background-color: var(--colorAcDark);}
+.theme-dark .container-PNkimc {background-color: var(--colorAcDark);}
+.theme-dark .content-yTz4x3,
+.theme-dark .messagesWrapper-3lZDfY {
+    background-color: var(--colorBgDark);
+}
+.theme-dark .chat-3bRxxu form {background-color: var(--colorBg)}
+.theme-dark .timestampCompact-MHgFLv {color: var(--colorFgDark) !important;}
+.theme-dark .channels-Ie2l6A {background-color: var(--colorAcDark) !important;}
+.theme-dark .channels-Ie2l6A * {color: var(--colorFgDark) !important;}
