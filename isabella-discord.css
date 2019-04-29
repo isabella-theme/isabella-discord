@@ -30,6 +30,7 @@ body {
     width: 40px;
 }
 .guildSeparator-3s64Iy {display: none;}
+.searchBar-6Kv8R2 {box-shadow: initial;}
 .containerCompact-3V0ioj {padding: 2px 0;}
 .message-1PNnaP {margin-bottom: 0;}
 .content-3dzVd8 {padding-right: 1%;}
@@ -62,6 +63,12 @@ body {
 .friendsColumn-eVHFqJ.friendsColumnActions-1LT3_M {display: none !important;}
 /* global colors */
 .item-2hkk8m {background-color: var(--colorHl);}
+.children-19S4PO:after {background: transparent !important;}
+.theme-light .privateChannels-1nO12o header,
+.theme-dark .privateChannels-1nO12o header,
+.accountDetails-3k9g4n .discriminator {
+    opacity: 1;
+}
 .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU,
 .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU,
 .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU,
@@ -78,6 +85,7 @@ body {
 .theme-dark .username-_4ZSMR {
     color: var(--colorHl);
 }
+.channel-2QD9_O.selected-1HYmZZ a {background-color: var(--colorHl);}
 .markup-2BOw-j a {color: var(--colorHl) !important;}
 /* light theme */
 .theme-light .container-2lgZY8 {background-color: var(--colorAcLight);}
@@ -85,6 +93,15 @@ body {
 .theme-light .container-1r6BKw {background-color: var(--colorAcLight);}
 .theme-light .container-PNkimc {background-color: var(--colorAcLIght);}
 .theme-light .channels-Ie2l6A {background-color: var(--colorAcLight);}
+.theme-light .button-2b6hmh {filter: brightness(0%) contrast(100%) !important}
+.theme-light .container-2XeR5Z {background-color: var(--colorBgLight);}
+.theme-light .privateChannels-1nO12o header {color: var(--colorFgLight);}
+.theme-light .channel-2QD9_O:hover a {background-color: var(--colorBgLightDarker);}
+.theme-light .channel-2QD9_O:hover a,
+.channel-2QD9_O:hover .name-2WpE7M,
+.channel-2QD9_O:hover .nameWrapper-10v56U {
+    color: var(--colorFgLight);
+}
 .theme-light .channels-Ie2l6A * {color: var(--colorFgLight);}
 .theme-light .content-yTz4x3 {background-color: var(--colorBgLight);}
 .theme-light .markup-2BOw-j {color: var(--colorFgLight);}
@@ -97,6 +114,7 @@ body {
 .theme-dark .container-1r6BKw {background-color: var(--colorAcDark);}
 .theme-dark .container-PNkimc {background-color: var(--colorAcDark);}
 .theme-dark .channels-Ie2l6A {background-color: var(--colorAcDark) !important;}
+.theme-dark .privateChannels-1nO12o header {color: var(--colorFgDark);}
 .theme-dark .channels-Ie2l6A * {color: var(--colorFgDark) !important;}
 .theme-dark .content-yTz4x3,
 .theme-dark .messagesWrapper-3lZDfY {
