@@ -61,9 +61,23 @@ body {
     padding-top: 5px;
     border-top: initial !important;
 }
-.friendsTable-133bsv .friendsRow-2yicud+.friendsRow-2yicud {border-top: initial !important;}
+.friendsTable-133bsv .friendsRow-2yicud+.friendsRow-2yicud {
+    border-top: initial !important;
+}
 .friendsRow-2yicud {height: 45px !important;}
 .friendsColumn-eVHFqJ.friendsColumnActions-1LT3_M {display: none !important;}
+/* easier to see unread indicators */
+.pill-31IEus.wrapper-sa6paO .item-2hkk8m {
+    height: 25px !important;
+    width: 15px;
+    border-radius: 100px;
+}
+.unread-3zKkbm {
+    top: 13px;
+    height: 14px;
+    width: 17px;
+    border-radius: 100px;
+}
 /* global colors */
 .item-2hkk8m {background-color: var(--colorHl);}
 .children-19S4PO:after {background: transparent !important;}
@@ -83,7 +97,9 @@ body {
     color: var(--colorHlFg);
     background-color: var(--colorHl);
 }
-.theme-dark .container-2Thooq,.theme-light .container-2Thooq {background-color: transparent;}
+.theme-dark .container-2Thooq,.theme-light .container-2Thooq {
+    background-color: transparent;
+}
 .theme-light .username-_4ZSMR,
 .theme-dark .username-_4ZSMR {
     color: var(--colorHl);
@@ -99,16 +115,38 @@ body {
 .theme-light .button-2b6hmh {filter: brightness(0%) contrast(100%) !important}
 .theme-light .container-2XeR5Z {background-color: var(--colorBgLight);}
 .theme-light .privateChannels-1nO12o header {color: var(--colorFgLight);}
-.theme-light .channel-2QD9_O:hover a {background-color: var(--colorBgLightDarker);}
+.theme-light .channel-2QD9_O:hover a {
+    background-color: var(--colorBgLightDarker);
+}
 .theme-light .channel-2QD9_O:hover a,
 .channel-2QD9_O:hover .name-2WpE7M,
 .channel-2QD9_O:hover .nameWrapper-10v56U {
     color: var(--colorFgLight);
 }
 .theme-light .channels-Ie2l6A * {color: var(--colorFgLight);}
+.theme-light .wrapper-1ucjTd:hover .content-3at_AU {
+    background-color: var(--colorBgLightDarker);
+}
+.theme-light .wrapper-1ucjTd:hover .name-3_Dsmg {
+    color: var(--colorFgLight) !important;
+}
+.theme-light .unread-3zKkbm {background-color: var(--colorHl);}
+.theme-light .wrapper-1ucjTd.modeUnread-1zpFdA .name-3_Dsmg {
+    color: var(--colorFgLight);
+}
 .theme-light .content-yTz4x3 {background-color: var(--colorBgLight);}
+.theme-light .divider-3gKybi .dividerContent-2L12VI {
+    color: var(--colorFgLight);
+}
+.theme-light .divider-3gKybi,.theme-light .divider-3gKybi:before {
+    background-color: var(--colorBgLight);
+}
+.theme-light .divider-3gKybi .dividerContent-2L12VI:after,
+.theme-light .divider-3gKybi .dividerContent-2L12VI:before {
+    border-color: var(--colorBgLightDarker);
+}
 .theme-light .markup-2BOw-j {color: var(--colorFgLight);}
-.theme-light .timestampCompact-MHgFLv {color: var(--colorFgLight);}
+.theme-light .timestampCompact-MHgFLv {color: var(--colorFgLight) !important;}
 .theme-light .members-1998pB {background-color: var(--colorAcLight);}
 .theme-light .container-3gCOGc {background-color: var(--colorBgLight);}
 /* dark theme */
@@ -119,9 +157,28 @@ body {
 .theme-dark .channels-Ie2l6A {background-color: var(--colorAcDark) !important;}
 .theme-dark .privateChannels-1nO12o header {color: var(--colorFgDark);}
 .theme-dark .channels-Ie2l6A * {color: var(--colorFgDark) !important;}
+.theme-dark .wrapper-1ucjTd:hover .content-3at_AU {
+    background-color: var(--colorBgDarkDarker);
+}
+.theme-dark .wrapper-1ucjTd:hover .name-3_Dsmg {
+    color: var(--colorFgDark);
+}
+.theme-dark .wrapper-1ucjTd.modeUnread-1zpFdA .name-3_Dsmg {
+    color: var(--colorFgDark);
+}
 .theme-dark .content-yTz4x3,
 .theme-dark .messagesWrapper-3lZDfY {
     background-color: var(--colorBgDark);
+}
+.theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI {
+    color: var(--colorFgDark);
+}
+.theme-dark .divider-3gKybi,.theme-dark .divider-3gKybi:before {
+    background-color: var(--colorBgDark);
+}
+.theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:after,
+.theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:before {
+    border-color: var(--colorBgDarkDarker);
 }
 .theme-dark .chat-3bRxxu form {background-color: var(--colorBg);}
 .theme-dark .timestampCompact-MHgFLv {color: var(--colorFgDark) !important;}
